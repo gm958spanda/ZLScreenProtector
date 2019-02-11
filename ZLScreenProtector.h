@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZLScreenProtector : NSObject
 
++(instancetype)shareIns;
+
+-(void)run;
+-(void)stop;
 @end
 
 NS_ASSUME_NONNULL_END
